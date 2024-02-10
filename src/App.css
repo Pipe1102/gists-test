@@ -1,0 +1,38 @@
+.gistList {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: x-large;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.fadeImage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeOut 1s;
+}
+
+.fadeImage img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

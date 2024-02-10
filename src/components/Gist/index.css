@@ -1,0 +1,22 @@
+.gistWrapper {
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.gistImg {
+  width: 80px;
+  height: 80px;
+}
+
+.selectedImg {
+  filter: brightness(50%);
+}
+
+.selectedTitle {
+  color: blue;
+}

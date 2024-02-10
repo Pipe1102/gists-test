@@ -1,0 +1,21 @@
+.footerContainer {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.actionButton {
+  height: 30px;
+  width: 30px;
+}
+
+.pageNumContainer {
+  display: flex;
+}
+.selectedPage {
+  color: blue;
+}
